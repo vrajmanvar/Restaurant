@@ -1,0 +1,584 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.max-w{
+    max-width: 1250px;
+    margin: auto;
+}
+.booking{
+    width: 167px;
+    background-color: #EA6D27;
+    height: 54px;
+    display: inline-block;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+}
+.menu{
+    width: 120px;
+    background-color: #101A24;
+    height: 54px;
+    display: inline-block;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+}
+
+/* page 1 */
+
+/* navbar */
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+.navbar a{   
+    text-decoration: none;
+    font-size: 16px;
+    color: #101A24;
+    font-family: "Inter", sans-serif;
+}
+.navbar .links{
+    width: 434px;
+    height: 29px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+/* page 1 main  */
+
+.page1 .main{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 80px;
+    margin-bottom: 90px;
+}
+.page1 .main .discription{
+    padding-top: 100px;
+}
+.page1 .main .text{
+    height: 144px;
+    width: 510px;
+}
+.page1 .main .text p{
+    font-size: 70px;
+    font-weight: 700;
+    color: #101A24;
+    line-height: 72px;
+}
+.page1 .main .paragraph{
+    width: 376px;
+    height: 115px;
+}
+.page1 .main .paragraph p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #5C6574;
+    line-height: 29px;
+    font-family: "Inter", sans-serif;
+    margin: 50px 0;
+}
+.btn{
+    display: flex;
+    gap: 30px;
+    margin-top: 20px ;
+}
+.social_media {
+    display: flex;
+    position: absolute;
+    gap: 10px;
+    cursor: pointer;
+}
+.social_media i{
+    position: relative;
+    top: 70px;
+    font-size: 45px;
+}   
+.social_media #facebook{
+    font-size: 25px;
+    right: 41px;
+    top: 81px;
+}
+.social_media #insta{
+    font-size: 26px;
+    right: 44px;
+    top: 80px;
+}
+.social_media #twitter{
+    font-size: 25px;
+    right: 44px;
+    top: 80px;
+}
+.image {
+   position: relative;
+}
+.image #dish{
+    position: absolute;
+    bottom: 0;
+    left: -230px;
+}
+
+/*  page 1 background image  */
+
+.page1{
+    position: relative;
+}
+.page1 .ellipse{
+    position: absolute;
+    left: -60px;
+}
+.page1 #group1{
+    position: absolute;
+    top: 170px;
+    left: 30px;
+}
+.page1 #the_leaf1{
+    position: absolute;
+    top: 170px;
+    right: 450px;
+}
+.page1 #the_leaf2{
+    position: absolute;
+    top: 90px;
+    right: 0;
+}
+.page1 #the_leaf3{
+    position: absolute;
+    bottom: 40px;
+    right: 0px;
+}
+
+/* page2 */
+
+/* special Dish */
+
+.page2{
+    background-color: #F3F4F4;
+    padding: 50px 0px 100px 0px;
+}
+.special_dish{
+    text-align: center;
+    position: relative;
+}
+.special_dish p{
+    font-size: 60px;
+    font-weight: 700;
+    color: #101A24;
+}
+.special_dish #discription{
+    font-size: 16px;
+    font-weight: 400;
+    color: #5C6574;
+    line-height: 29px;
+    margin: 20px 0px 40px 0px;
+    font-family: "Inter", sans-serif;
+}
+
+/* page 2 middle area  */
+
+.middle{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 250px;
+    padding-bottom: 50px;
+    position: relative;
+}
+.page2 .dishes{
+    width: 265px;
+    text-align: center;
+    position: relative;
+}
+.page2 .dishes .bold{
+    font-weight: 700;
+    font-size: 20px;
+    color: #101A24;
+}
+.page2 .dishes .paragraph{
+    margin-top: 15px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    color: #5C6574;
+    font-family: "Inter", sans-serif;
+}
+.page2 .rectangle{
+    position: absolute;
+    right: 0;
+    bottom: -30px;
+}
+.page2 .food{
+    position: absolute;
+    bottom: 150px;
+    left: 35px;
+}
+.page2 .price{
+    position: absolute;
+    bottom: 230px;
+    left: 170px ;
+}
+
+/* page 2 ending area  */
+
+.page2 .end_page{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 80px;
+    position: relative;
+}
+.page2 .end_page #welcome{
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 65px;
+    color: #101A24;
+}
+.page2 .end_page #paragraph{
+    font-size: 16px;
+    line-height: 29px;
+    color: #5C6574;
+    font-weight: 400;
+    padding-top: 20px;
+    font-family: "Inter", sans-serif;
+}
+
+/* page 2 background image  */
+
+.page2 #image1{
+    position: absolute;
+    left: 180px;
+    top: -40px;
+}
+.page2 #image2{
+    position: absolute;
+    right: 220px;
+    top: -45px;
+}
+.page2 #image3{
+    position: absolute;
+    left: 220px;
+    bottom: -20px;
+}
+.page2 #image4{
+    position: absolute;
+    bottom: -140px;
+    left: 500px;
+}
+.page2 #image5{
+    position: absolute;
+    right: 180px;
+    bottom: -40px;
+}
+.page2 #image6{
+    position: absolute;
+    right: 0;
+    bottom: -70px;
+}
+.page2 #image7{
+    position: absolute;
+    right: 300px;
+    top: 180px;
+}
+.page2 #image8{
+    position: absolute;
+    right: 400px;
+    top: 600px;
+}
+.page2 #image9{
+    position: absolute;
+    top: 500px;
+    right: 500px;
+}
+.page2 #image10{
+    position: absolute;
+    right: -134.9px;
+    top: 400px;
+}
+.page2 #leaf1{
+    position: absolute;
+    left: 20px;
+    top: 250px;
+}
+.page2 #leaf2{
+    position: absolute;
+    bottom: 10px;
+    left: 70px;
+}
+.page2 #leaf3{
+    position: absolute;
+    top: 170px;
+    left: 570px;
+}
+.page2 #leaf4{
+    position: absolute;
+    left: 380px;
+    bottom: 30px;
+}
+
+/* page 3 */
+
+.page3{
+    display: flex;
+    padding: 100px 0px 100px 0px ;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.chef{
+    font-weight: 700;
+    font-size: 60px;
+    color: #101A24;
+}
+.page3 .paragraph{
+    font-weight: 400;
+    font-size: 16px;
+    color: #5C6574;
+    line-height: 29px;
+    font-family: "Inter", sans-serif;
+    margin: 30px 0px 10px 0px;
+}
+.page3 .list{
+    display: flex;
+    gap: 80px;
+    list-style-type: none;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    line-height: 21px;
+    color: #5C6574;
+    font-weight: 400;
+    position: relative;
+}
+.page3 ul{
+    margin-top: 30px;
+    margin-left: 35px;
+}
+.page3 .btn{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+#check1{
+    position: absolute;
+    top: 33px;
+}
+#check2{
+    position: absolute;
+    top: 105px;
+}
+#check3{
+    position: absolute;
+    top: 178px;
+}
+#check4{
+    position: absolute;
+    top: 33px;
+    left: 312px;
+}
+#check5{
+    position: absolute;
+    top: 105px;
+    left: 312px;
+}
+#check6{
+    position: absolute;
+    top: 178px;
+    left: 312px;
+}
+
+/* page 3 background image  */
+
+.page3 #image1{
+    position: absolute;
+    top: 40px;
+}
+.page3 #image2{
+    position: absolute;
+    top: 100px;
+    left: -140px;
+}
+
+/* page 4 */
+
+.page4{
+    background-color: #F3F4F4;
+    padding-top: 50px;
+    height: 1100px;
+    position: relative;
+}
+#happy{
+    font-weight: 700;
+    font-size: 60px;
+    color: #101A24;
+    text-align: center;
+}
+.page4 .para{
+    font-size: 16px;
+    line-height: 29px;
+    font-weight: 400;
+    color: #5C6574;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+}
+.page4 .discription .para{
+    margin: 20px 0px 60px 0px;
+}
+
+/* page 4 middle area  */
+
+.page4 .rating{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding: 60px 40px 20px 40px; 
+    width: 639px;
+    border-top-left-radius: 100px; 
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-top: 100px;
+    position: relative;
+}
+.page4 .person{
+    font-weight: 700;
+    font-size: 16px;
+    color: #101A24;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    margin-top: 20px;
+}
+.page4 #star{
+    margin-left: 120px;
+    margin-bottom: 20px;
+}
+.page4 #people{
+    position: absolute;
+    top: -50px;
+    left: 300px;
+}
+.dot{
+    display: flex;
+    justify-content: center;
+    margin: 100px 0;
+}
+
+/* page 4 end  */
+
+.page_ending .image{
+    background-image: url("image/page4_end.png");
+    width: 1151px;
+    height: 407px;
+    padding: 60px 0px 20px 0px;
+    background-repeat: no-repeat;
+}
+.page_ending .text{
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 58px;
+    color: #FFFFFF;
+    text-align: center;
+}
+#mail_text{
+    border-radius: 9px;
+    border: none;
+    padding: 15px;
+    width: 250px;
+    font-family: "Inter", sans-serif;
+}
+#subscribe{
+    padding: 15px;
+    background-color: #EA6D27;
+    color: #FFFFFF;
+    border-radius: 9px;
+    border: none;
+    font-family: "Inter", sans-serif;
+    cursor: pointer;
+}
+.email{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    gap: 20px;
+}
+.page4 .background_image{
+    position: absolute;
+}
+
+/* footer  */
+
+.footer{
+    display: flex;
+    margin-top: 250px;
+    font-family: "Inter", sans-serif;
+    justify-content: space-between;
+}
+.footer p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #5C6574;
+    line-height: 29px;
+}
+.footer #para{
+    margin: 25px 0;
+}
+.time{
+    display: flex;
+    gap: 30px;
+    margin: 25px 0;
+}
+#open{
+    font-size: 14px;
+    font-weight: 700;
+    color: #101A24;
+}
+.footer .head{
+    color: #101A24;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+}
+.footer ul{
+    list-style-type: none;
+    line-height: 40px;
+    color: #5C6574;
+}
+.footer .fourth_part{
+    width: 215px;
+}
+
+/* copyright  */
+
+.copy{
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 0px 200px 0px;
+    cursor: pointer;
+}
+.copyright {
+    position: relative;
+    font-size: 16px;
+    font-weight: 400;
+    color: #5C6574;
+    font-family: "Inter", sans-serif;
+}
+pre{
+    font-family: "Inter", sans-serif;
+}
+#f_image{
+    position: absolute;
+    top: -300px; 
+    left: 250px;  
+}
